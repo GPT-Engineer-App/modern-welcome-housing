@@ -14,10 +14,10 @@ const Index = () => {
               HomeSales
             </Heading>
             <Stack direction="row" spacing={6}>
-              <Button colorScheme="yellow" color="black">
+              <Button colorScheme="yellow" color="black" borderRadius="md" boxShadow="md" px={6} py={3}>
                 資料請求
               </Button>
-              <Button colorScheme="black" color="white">
+              <Button colorScheme="white" color="black" borderRadius="md" boxShadow="md" px={6} py={3}>
                 お問い合わせ
               </Button>
             </Stack>
