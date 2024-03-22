@@ -13,15 +13,12 @@ const Index = () => {
               <Icon as={FaHome} mr={2} />
               HomeSales
             </Heading>
-            <Stack direction="row" spacing={8}>
-              <Button variant="ghost" color="black">
-                Properties
+            <Stack direction="row" spacing={4}>
+              <Button colorScheme="black" color="white">
+                資料請求
               </Button>
-              <Button variant="ghost" color="black">
-                Testimonials
-              </Button>
-              <Button variant="ghost" color="black">
-                Contact
+              <Button colorScheme="black" color="white">
+                お問い合わせ
               </Button>
             </Stack>
           </Flex>
