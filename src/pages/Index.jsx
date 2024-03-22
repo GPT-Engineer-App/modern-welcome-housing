@@ -6,19 +6,22 @@ const Index = () => {
   return (
     <Box bg="white">
       {/* Navigation */}
-      <Box bg="blue.900" py={6}>
+      <Box bg="yellow.400" py={4}>
         <Container maxW="container.lg">
           <Flex align="center" justify="space-between">
-            <Heading size="lg" color="white">
+            <Heading size="lg" color="black">
               <Icon as={FaHome} mr={2} />
               HomeSales
             </Heading>
-            <Stack direction="row" spacing={6}>
-              <Button colorScheme="yellow" color="black" borderRadius="md" boxShadow="md" px={6} py={3}>
-                資料請求
+            <Stack direction="row" spacing={8}>
+              <Button variant="ghost" color="black">
+                Properties
               </Button>
-              <Button colorScheme="white" color="black" borderRadius="md" boxShadow="md" px={6} py={3}>
-                お問い合わせ
+              <Button variant="ghost" color="black">
+                Testimonials
+              </Button>
+              <Button variant="ghost" color="black">
+                Contact
               </Button>
             </Stack>
           </Flex>
