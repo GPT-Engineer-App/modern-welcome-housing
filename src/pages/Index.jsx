@@ -6,15 +6,15 @@ const Index = () => {
   return (
     <Box bg="white">
       {/* Navigation */}
-      <Box bg="yellow.400" py={4}>
+      <Box bg="blue.900" py={6}>
         <Container maxW="container.lg">
           <Flex align="center" justify="space-between">
-            <Heading size="lg" color="black">
+            <Heading size="lg" color="white">
               <Icon as={FaHome} mr={2} />
               HomeSales
             </Heading>
-            <Stack direction="row" spacing={4}>
-              <Button colorScheme="black" color="white">
+            <Stack direction="row" spacing={6}>
+              <Button colorScheme="yellow" color="black">
                 資料請求
               </Button>
               <Button colorScheme="black" color="white">
